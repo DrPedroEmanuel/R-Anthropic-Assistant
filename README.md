@@ -19,7 +19,7 @@ You can install the development version from GitHub:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("DrPedroEmanuel/ranthropicR")
+devtools::install_github("DrPedroEmanuel/R-Anthropic-Assistant")
 ```
 
 ## Authentication
