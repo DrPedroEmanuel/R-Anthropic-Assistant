@@ -1,0 +1,28 @@
+Package: ranthropicR
+Title: R Interface to Anthropic Claude AI Models
+Version: 0.1.0
+Authors@R: 
+    person("Pedro", "Emanuel", email = "dr.pedroemanuel@hotmail.com", role = c("aut", "cre"))
+Description: Provides an R interface to Anthropic's Claude AI models with support for
+    text generation and chat-based interactions. Includes functions for model selection,
+    parameter customization, and a convenient RStudio addin for interactive use.(Created with Claude Sonnet 3.7).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    httr,
+    jsonlite,
+    shiny,
+    shinyjs,
+    rstudioapi,
+    curl,
+    DT,
+    diffobj
+Suggests:
+    dotenv,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr

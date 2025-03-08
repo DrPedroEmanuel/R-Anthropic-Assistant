@@ -1,0 +1,9 @@
+Name: Claude Code Completion
+Description: Use Claude to auto-complete your R code while typing
+Binding: runClaudeCompletion
+Interactive: true
+
+Name: Claude Assistant
+Description: Chat with Claude AI to assist with your R programming
+Binding: runClaudeAssistant
+Interactive: true
